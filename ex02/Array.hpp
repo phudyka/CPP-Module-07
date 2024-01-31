@@ -6,7 +6,7 @@
 /*   By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 11:53:11 by phudyka           #+#    #+#             */
-/*   Updated: 2024/01/30 10:54:28 by phudyka          ###   ########.fr       */
+/*   Updated: 2024/01/31 14:48:28 by phudyka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ class Array
 };
 
 template <typename T>
-Array<T>::Array() : data(NULL), size(0) {}
+Array<T>::Array() : data(0), size(0) {}
 
 template <typename T>
 Array<T>::Array(unsigned int n) : size(n)
